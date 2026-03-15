@@ -21,34 +21,5 @@ Each dataset follows the same flow:
 
 ## Quick Start
 
-### Google Colab (recommended)
-
 1. Upload the notebook to [Google Colab](https://colab.research.google.com/)
-2. Run all cells — datasets auto-download from this repo
-
-### Local
-
-```bash
-git clone https://github.com/arhsis/UM-CISC7107-assignment2.git
-cd UM-CISC7107-assignment2
-pip install xgboost lightgbm
-jupyter notebook UM-CISC7107-assignment2.ipynb
-```
-
-## Files
-
-```
-UM-CISC7107-assignment2/
-├── UM-CISC7107-assignment2.ipynb               # The notebook
-├── happiness/
-│   └── data_cleaned_compact.csv             # 141 countries, 158 features
-├── lung_cancer_mixed_types_attributes/
-│   └── LungCancer_cancerYesNo-grouped.csv   # 800 patients, 41 features
-└── nsl_kdd/
-    └── KDDTrain+.txt                        # ~125K connections, 41 features
-```
-
-## Requirements
-
-- Python 3.8+
-- numpy, pandas, matplotlib, seaborn, scipy, networkx, scikit-learn, xgboost, lightgbm
+2. Run all cells — datasets download automatically
