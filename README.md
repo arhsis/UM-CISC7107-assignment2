@@ -1,4 +1,4 @@
-# Relation Network EDA Demo
+# UM-CISC7107 Assignment 2
 
 A teaching notebook that demonstrates how features relate to outcomes and to each other, building from simple visualizations up to **relation networks** — outcome-centered graphs built from Spearman correlations.
 
@@ -32,14 +32,14 @@ Each dataset follows the same flow:
 git clone https://github.com/arhsis/UM-CISC7107-assignment2.git
 cd UM-CISC7107-assignment2
 pip install xgboost lightgbm
-jupyter notebook relation_network_eda_demo.ipynb
+jupyter notebook UM-CISC7107-assignment2.ipynb
 ```
 
 ## Files
 
 ```
 UM-CISC7107-assignment2/
-├── relation_network_eda_demo.ipynb          # The notebook
+├── UM-CISC7107-assignment2.ipynb               # The notebook
 ├── happiness/
 │   └── data_cleaned_compact.csv             # 141 countries, 158 features
 ├── lung_cancer_mixed_types_attributes/
